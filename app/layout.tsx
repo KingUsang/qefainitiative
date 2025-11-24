@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   description:
     "Bridging educational gaps and building brighter futures through mentorship, resources, and opportunities for every student.",
   generator: "v0.app",
-  charset: "utf-8",
   icons: {
     icon: [
       {

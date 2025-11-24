@@ -192,7 +192,7 @@ const DonationForm: React.FC = () => {
         </label>
         <div className="flex gap-2">
           <div className="flex items-center border rounded-lg px-3">
-            <span className="text-gray-600">₦</span>
+            <span className="text-gray-600">NGN</span>
             <input
               id="customAmount"
               type="number"
