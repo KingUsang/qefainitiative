@@ -180,7 +180,7 @@ const DonationForm: React.FC = () => {
               selectedAmount === amount ? "bg-primary text-white" : "bg-gray-100 text-gray-800 hover:bg-gray-200"
             }`}
           >
-            ₦{amount.toLocaleString()}
+            {amount.toLocaleString()}
           </button>
         ))}
       </div>

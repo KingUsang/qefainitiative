@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next"
 import type React from "react"
 import { Geist, Geist_Mono } from "next/font/google"
 import { PageTransition } from "@/components/page-transition"
+import { Toaster } from "@/components/ui/toaster"
 import "./globals.css"
 
 const geist = Geist({ subsets: ["latin"] })
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
   description:
     "Bridging educational gaps and building brighter futures through mentorship, resources, and opportunities for every student.",
   generator: "v0.app",
+  charset: "utf-8",
   icons: {
     icon: [
       {
@@ -49,8 +51,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+      </head>
       <body className={`${geist.className} font-sans antialiased`}>
         <PageTransition>{children}</PageTransition>
+        <Toaster />
       </body>
     </html>
   )

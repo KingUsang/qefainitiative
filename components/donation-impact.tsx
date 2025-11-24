@@ -38,7 +38,7 @@ export function DonationImpact() {
           <div key={index} className="flex gap-4 bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition">
             <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div>
-              <p className="font-semibold text-primary">₦{item.amount.toLocaleString()}</p>
+              <p className="font-semibold text-primary">{item.amount.toLocaleString()}</p>
               <p className="text-gray-700 text-sm">{item.impact}</p>
             </div>
           </div>
