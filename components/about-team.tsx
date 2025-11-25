@@ -5,13 +5,13 @@ const AboutTeam = () => {
     {
       name: "Zainab Bello",
       role: "Founder and President",
-      image: "/images/IMG-20241101-WA0001 - Bello Zainab.jpg",
+      image: "/IMG-20241101-WA0001 - Bello Zainab.jpg",
       bio: "",
     },
     {
       name: "Obase-Oyeni Etim Ayomobi",
       role: "Vice President",
-      image: "/images/IMG_0239 - Obase Oyeni Ayomobi.jpeg",
+      image: "/IMG_0239 - Obase Oyeni Ayomobi.jpeg",
       bio: "",
     },
     {
@@ -23,7 +23,7 @@ const AboutTeam = () => {
     {
       name: "Yusuf Barika-Bodunrin",
       role: "Academic Team Lead",
-      image: "/images/headshot - Barika-Bodunrin Yusuf.jpg",
+      image: "/headshot - Barika-Bodunrin Yusuf.jpg",
       bio: "",
     },
     {
@@ -41,7 +41,7 @@ const AboutTeam = () => {
     {
       name: "Wiqoyah Akinwunmi",
       role: "Media and Publicity Lead",
-      image: "/images/Snapchat-457251043 - Wiqoyah Akinwunmi.jpg",
+      image: "/Snapchat-457251043 - Wiqoyah Akinwunmi.jpg",
       bio: "",
     },
     {
@@ -53,13 +53,13 @@ const AboutTeam = () => {
     {
       name: "Olufayo Hephzibah Iyanuoluwa",
       role: "Outreach and Enlightenment Team Lead",
-      image: "/images/IMG_2254 - Hephzibah Iyanu.JPG",
+      image: "/IMG_2254 - Hephzibah Iyanu.JPG",
       bio: "",
     },
     {
       name: "Shodipo Oluwaseunfunmito Deborah",
       role: "Research and Impact Evaluation Lead",
-      image: "/images/1758965671104 - Seun Shodipo.jpg",
+      image: "/1758965671104 - Seun Shodipo.jpg",
       bio: "",
     },
   ]
