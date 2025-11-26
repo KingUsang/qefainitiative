@@ -52,7 +52,7 @@ const AboutTeam = () => {
     {
       name: "Olufayo Hephzibah Iyanuoluwa",
       role: "Outreach and Enlightenment Team Lead",
-      image: "/IMG_2254 - Hephzibah Iyanu.JPG",
+      image: "/IMG_2254 - Hephzibah Iyanu.jpg",
       bio: "",
     },
     {
