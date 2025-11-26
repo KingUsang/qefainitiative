@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo and Description */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">QEFAI</h3>
+            <img src="/logo.png" alt="logo" className="h-12"/>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Bridging educational gaps and building brighter futures by providing resources, mentorship, and
               opportunities to youths across communities.

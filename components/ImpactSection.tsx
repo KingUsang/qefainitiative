@@ -51,7 +51,7 @@ export default function ImpactSection() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+        {/*<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
           {stats.map((stat, index) => {
             const IconComponent = stat.icon
             return (
@@ -62,7 +62,7 @@ export default function ImpactSection() {
               </div>
             )
           })}
-        </div>
+        </div>*/}
       </div>
     </section>
   )

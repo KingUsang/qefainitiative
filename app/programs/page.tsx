@@ -42,7 +42,7 @@ const Programs: React.FC = () => {
         "Digital literacy training",
         "Coding and programming courses",
         "Emerging technology workshops",
-        "Online safety and cybersecurity",
+        "Exciting Hackathons",
         "Tech career preparation",
       ],
       impact: {
@@ -152,7 +152,7 @@ const Programs: React.FC = () => {
                     </div>
 
                     {/* Impact Stats */}
-                    <div className="grid grid-cols-3 gap-4 mb-8 bg-gray-50 p-4 rounded-lg">
+                    {/*<div className="grid grid-cols-3 gap-4 mb-8 bg-gray-50 p-4 rounded-lg">
                       <div className="text-center">
                         <div className="text-2xl font-bold text-primary">{program.impact.students}</div>
                         <div className="text-sm text-gray-600">Students Served</div>
@@ -165,7 +165,7 @@ const Programs: React.FC = () => {
                         <div className="text-2xl font-bold text-primary">{program.impact.successRate}</div>
                         <div className="text-sm text-gray-600">Success Rate</div>
                       </div>
-                    </div>
+                    </div>*/}
 
                     <div className="flex flex-col sm:flex-row gap-4">
                       <Link

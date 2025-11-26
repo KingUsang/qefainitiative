@@ -29,7 +29,7 @@ const AboutTeam = () => {
     {
       name: "Marvellous Tijesunimi Otegbola",
       role: "Admin and Documentation Lead",
-      image: "https://placehold.co/300x400",
+      image: "/IMG-20251031-WA0014 - Tijesu.jpg",
       bio: "",
     },
     {
@@ -47,8 +47,7 @@ const AboutTeam = () => {
     {
       name: "Ganiyu Muktar Olasupo",
       role: "Outreach and Enlightenment Team Lead",
-      image: "https://placehold.co/300x400",
-      bio: "",
+      image: "muktar.jpg"
     },
     {
       name: "Olufayo Hephzibah Iyanuoluwa",

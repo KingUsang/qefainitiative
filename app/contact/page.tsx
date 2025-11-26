@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "info@qefai.org",
+      content: "qefainitiative@gmail.com",
       description: "Send us an email anytime",
     },
     {

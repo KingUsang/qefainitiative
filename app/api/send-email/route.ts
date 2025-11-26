@@ -15,8 +15,8 @@ export async function POST(request: NextRequest) {
         Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "noreply@qefai.org",
-        to: "info@qefai.org", // Change this to your desired recipient email
+        from: "onboarding@resend.dev",
+        to: "qefainitiative@gmail.com", // Change this to your desired recipient email
         subject: `New Contact Form Submission: ${subject}`,
         html: `
           <h2>New Contact Form Submission</h2>

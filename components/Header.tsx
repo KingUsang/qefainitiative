@@ -14,7 +14,6 @@ export default function Header() {
     { name: "About Us", href: "/about" },
     { name: "Programs", href: "/programs" },
     { name: "Contact", href: "/contact" },
-    { name: "Donate", href: "/donate" },
   ]
 
   const isActive = (path: string) => pathname === path
@@ -23,9 +22,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background border-b border-border shadow">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-primary">
-          QEFAI
-        </Link>
+        <img src="/logo.png" alt="logo" className="h-12"/>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">

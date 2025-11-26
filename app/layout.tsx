@@ -12,23 +12,18 @@ export const metadata: Metadata = {
   title: "QEFAI - Quality Education For All Initiative",
   description:
     "Bridging educational gaps and building brighter futures through mentorship, resources, and opportunities for every student.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/logo.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/logo.png",
         media: "(prefers-color-scheme: dark)",
       },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
     ],
-    apple: "/apple-icon.png",
+    apple: "/logo.png",
   },
 }
 

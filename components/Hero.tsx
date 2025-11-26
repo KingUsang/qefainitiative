@@ -56,7 +56,7 @@ export default function Hero() {
 
             <div className="bg-gray-50 p-8 rounded-lg">
               <Briefcase className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Mentorship & Career</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Mentorship & Career Guidance</h3>
               <p className="text-gray-600">
                 Connecting young individuals with opportunities for support, inspiration, and growth.
               </p>
