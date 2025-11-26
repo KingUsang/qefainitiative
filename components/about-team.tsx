@@ -11,7 +11,7 @@ const AboutTeam = () => {
     {
       name: "Obase-Oyeni Etim Ayomobi",
       role: "Vice President",
-      image: "/IMG_0239 - Obase Oyeni Ayomobi.jpeg",
+      image: "/IMG_0239 - Obase Oyeni Ayomobi.jpg",
       bio: "",
     },
     {
@@ -73,7 +73,7 @@ const AboutTeam = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {team.map((member, index) => (
             <div key={index} className="bg-white rounded-lg shadow overflow-hidden hover:shadow-lg transition">
-              <img src={member.image || "/placeholder.svg"} alt={member.name} className="w-full h-64 object-cover" />
+              <img src={member.image || "/placeholder.svg"} alt={member.name} className="w-full h-72 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold">{member.name}</h3>
                 <p className="text-primary font-medium">{member.role}</p>
