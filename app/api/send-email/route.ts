@@ -28,7 +28,8 @@ export async function POST(request: NextRequest) {
         `,
       }),
     })
-
+    const responseData = await response.json();
+    console.log("Resend response:", responseData);
     if (!response.ok) {
       throw new Error("Failed to send email")
     }

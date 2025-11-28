@@ -17,7 +17,7 @@ const AboutTeam = () => {
     {
       name: "Fuad Adegoke",
       role: "Chief Strategy Officer",
-      image: "https://placehold.co/300x400",
+      image: "fuad",
       bio: "",
     },
     {
@@ -35,19 +35,20 @@ const AboutTeam = () => {
     {
       name: "Adetujoye Temiloluwa Oluwagbenga",
       role: "Design Team Lead",
-      image: "https://placehold.co/300x400",
+      image: "/temi.jpg",
       bio: "",
     },
     {
       name: "Wiqoyah Akinwunmi",
       role: "Media and Publicity Lead",
-      image: "/Snapchat-457251043 - Wiqoyah Akinwunmi.jpg",
+      image: "wiqoyah.jpg",
       bio: "",
     },
     {
       name: "Ganiyu Muktar Olasupo",
       role: "Outreach and Enlightenment Team Lead",
-      image: "muktar.jpg"
+      image: "muktar.jpg",
+      bio: ""
     },
     {
       name: "Olufayo Hephzibah Iyanuoluwa",
@@ -59,6 +60,12 @@ const AboutTeam = () => {
       name: "Shodipo Oluwaseunfunmito Deborah",
       role: "Research and Impact Evaluation Lead",
       image: "/1758965671104 - Seun Shodipo.jpg",
+      bio: "",
+    },
+    {
+      name: "Usang Emmanuel",
+      role: "Technological Skills Development Lead",
+      image: "/usang.jpg",
       bio: "",
     },
   ]
