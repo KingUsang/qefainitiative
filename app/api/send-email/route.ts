@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
       },
       body: JSON.stringify({
         from: "onboarding@resend.dev",
-        to: "qefainitiative@gmail.com", // Change this to your desired recipient email
+        to: "kingusang09@gmail.com", // Change this to your desired recipient email
         subject: `New Contact Form Submission: ${subject}`,
         html: `
           <h2>New Contact Form Submission</h2>

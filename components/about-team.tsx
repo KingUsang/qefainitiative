@@ -17,7 +17,7 @@ const AboutTeam = () => {
     {
       name: "Fuad Adegoke",
       role: "Chief Strategy Officer",
-      image: "fuad",
+      image: "/fuad.jpg",
       bio: "",
     },
     {
