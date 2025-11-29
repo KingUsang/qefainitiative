@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowRight, Users, Heart, Briefcase } from "lucide-react"
+import { ArrowRight, Users, Book, Laptop } from "lucide-react"
 
 export default function Hero() {
   return (
@@ -39,26 +39,26 @@ export default function Hero() {
           {/* Focus Areas */}
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="bg-gray-50 p-8 rounded-lg">
+              <Book className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Educational & Academic Support</h3>
+              <p className="text-gray-600">
+                Free tutoring, access to learning materials, scholarship guidance for students in need and guiding them toward healthy, informed lifestyle choices that affect their education.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <Laptop className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Digital Empowerment & Professional Skills</h3>
+              <p className="text-gray-600">
+                Preparing young people for the future of work, Covering everything related to digital literacy, technology skills, cyber awareness, personal development, employability training, and career readiness.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
               <Users className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Educational Support</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Community Engagement & Volunteer Development</h3>
               <p className="text-gray-600">
-                Free tutoring, access to learning materials, and scholarship guidance for students in need.
-              </p>
-            </div>
-
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <Heart className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Enlightenment Programs</h3>
-              <p className="text-gray-600">
-                Awareness on mental health, personal hygiene, anti-cultism, sex education, and life-impacting topics.
-              </p>
-            </div>
-
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <Briefcase className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Mentorship & Career Guidance</h3>
-              <p className="text-gray-600">
-                Connecting young individuals with opportunities for support, inspiration, and growth.
+                Strengthening communities through outreach, awareness campaigns while also training and supporting volunteers who drive QEFAI’s mission.
               </p>
             </div>
           </div>

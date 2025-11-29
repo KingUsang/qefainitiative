@@ -67,7 +67,7 @@ export default function VolunteerPage() {
               </div>
 
               <p className="text-sm text-gray-600 text-center">
-                Your application will be reviewed by our team and we'll contact you within 2-3 business days.
+                Your application will be reviewed by our team and we'll contact you within 7-10 working days.
               </p>
             </div>
 

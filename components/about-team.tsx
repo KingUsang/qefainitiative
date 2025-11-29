@@ -4,13 +4,13 @@ const AboutTeam = () => {
   const team = [
     {
       name: "Zainab Bello",
-      role: "Founder and President",
+      role: "CEO",
       image: "/IMG-20241101-WA0001 - Bello Zainab.jpg",
       bio: "",
     },
     {
       name: "Obase-Oyeni Etim Ayomobi",
-      role: "Vice President",
+      role: "COO",
       image: "/IMG_0239 - Obase Oyeni Ayomobi.jpg",
       bio: "",
     },
