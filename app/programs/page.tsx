@@ -95,6 +95,29 @@ const Programs: React.FC = () => {
         successRate: "95%",
       },
     },
+    {
+      id: "outreach",
+      title: "Outreach Programs",
+      icon: Megaphone,
+
+      color: "primary",
+      image:
+        "https://images.unsplash.com/photo-1597764699514-9d1d720a0c1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      description:
+        "Expanding our impact through physical engagements in schools, communities, and local events—bringing education, empowerment, and enlightenment directly to the people.",
+      features: [
+        "School and community sensitization visits",
+        "Digital literacy and basic tech skills training",
+        "Health and personal hygiene awareness",
+        "Academic support initiatives",
+        "Educational resource distribution",
+      ],
+      impact: {
+        communities: "20+",
+        beneficiaries: "1,000+",
+        volunteers: "50+",
+      },
+    }
   ]
 
   return (

@@ -4,7 +4,7 @@ const AboutTeam = () => {
   const team = [
     {
       name: "Zainab Bello",
-      role: "Chief Executive Officer",
+      role: "Founder and Chief Executive Officer",
       image: "/IMG-20241101-WA0001 - Bello Zainab.jpg",
       bio: "",
     },
