@@ -102,7 +102,7 @@ const Programs: React.FC = () => {
 
       color: "primary",
       image:
-        "https://images.unsplash.com/photo-1597764699514-9d1d720a0c1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "/community.jpeg",
       description:
         "Expanding our impact through physical engagements in schools, communities, and local events—bringing education, empowerment, and enlightenment directly to the people.",
       features: [
