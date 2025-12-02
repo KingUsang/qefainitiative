@@ -4,7 +4,7 @@ import type React from "react"
 import Link from "next/link"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import { Users, Heart, Briefcase, ArrowRight, CheckCircle, Cpu } from "lucide-react"
+import { Users, Heart, Briefcase, ArrowRight, CheckCircle, Cpu, Megaphone } from "lucide-react"
 
 const Programs: React.FC = () => {
   const programs = [
