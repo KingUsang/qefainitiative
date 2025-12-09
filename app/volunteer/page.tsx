@@ -55,7 +55,7 @@ export default function VolunteerPage() {
 
               <div className="mb-6 text-center">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeO1h1xHtj4EkPUtba_lqsnVq_2J7wEPunJ0CQdFjnVlX-sDQ/viewform"
+                  href="https://forms.gle/57R9PPcg5D8R6gYQ9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg hover:bg-primary/90 transition font-semibold text-lg"
