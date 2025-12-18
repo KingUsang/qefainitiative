@@ -1,6 +1,7 @@
 "use client"
 import { Users, BookOpen, TrendingUp, Globe } from "lucide-react"
 import Link from "next/link"
+import { motion } from "framer-motion"
 
 export default function ImpactSection() {
   const stats = [
@@ -27,29 +28,49 @@ export default function ImpactSection() {
   ]
 
   return (
-    <section className="py-16 md:py-20 px-4 bg-primary text-white">
+    <section className="py-16 md:py-20 px-4 bg-primary text-primary-foreground">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Our Mission to Transform Education</h2>
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-3xl md:text-4xl font-bold mb-6"
+        >
+          Join Our Mission to Transform Education
+        </motion.h2>
 
-        <p className="text-lg text-primary-100 mb-12 max-w-2xl mx-auto">
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="text-lg text-primary-foreground/80 mb-12 max-w-2xl mx-auto"
+        >
           Together, we can make quality education accessible to every student who needs it.
-        </p>
+        </motion.p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center"
+        >
           <Link
-            href="/contact"
-            className="inline-flex items-center justify-center bg-white text-primary px-8 py-3 rounded-lg hover:bg-gray-100 transition font-semibold"
+            href="/volunteer"
+            className="inline-flex items-center justify-center bg-background text-primary px-8 py-3 rounded-lg hover:bg-background/90 transition font-semibold"
           >
             Become a Volunteer
           </Link>
 
           <Link
             href="/donate"
-            className="inline-flex items-center justify-center border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-primary transition font-semibold"
+            className="inline-flex items-center justify-center border-2 border-primary-foreground text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary-foreground hover:text-primary transition font-semibold"
           >
             Make a Donation
           </Link>
-        </div>
+        </motion.div>
 
         {/*<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
           {stats.map((stat, index) => {

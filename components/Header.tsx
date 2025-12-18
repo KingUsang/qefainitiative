@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -22,7 +23,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background border-b border-border shadow">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <img src="/logo.png" alt="logo" className="h-12"/>
+        <img src="/logo.png" alt="logo" className="h-12" />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
@@ -37,15 +38,18 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
+          <ThemeToggle />
         </nav>
 
-        {/* Mobile menu button */}
-        <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-foreground hover:text-primary hover:bg-secondary"
-        >
-          {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        <div className="md:hidden flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="inline-flex items-center justify-center p-2 rounded-md text-foreground hover:text-primary hover:bg-secondary"
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Navigation */}

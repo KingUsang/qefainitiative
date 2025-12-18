@@ -3,6 +3,7 @@ import type React from "react"
 import { Geist, Geist_Mono } from "next/font/google"
 import { PageTransition } from "@/components/page-transition"
 import { Toaster } from "@/components/ui/toaster"
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
 const geist = Geist({ subsets: ["latin"] })
@@ -44,13 +45,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="UTF-8" />
       </head>
       <body className={`${geist.className} font-sans antialiased`}>
-        <PageTransition>{children}</PageTransition>
-        <Toaster />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <PageTransition>{children}</PageTransition>
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   )
