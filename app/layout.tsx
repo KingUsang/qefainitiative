@@ -8,7 +8,7 @@ import "./globals.css"
 const geist = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
   title: "QEFAI - Quality Education For All Initiative",
   description:
     "Bridging educational gaps and building brighter futures through mentorship, resources, and opportunities for every student.",
@@ -23,6 +23,36 @@ export const metadata: Metadata = {
         media: "(prefers-color-scheme: dark)",
       },
     ],
+    apple: "/logo_square.png",
+  },
+}*/
+
+
+export const metadata: Metadata = {
+  title: "QEFAI - Quality Education For All Initiative",
+  description:
+    "QEFAI is a non-profit organization dedicated to bridging educational gaps through mentorship, resources, digital skills, and empowerment programs.",
+  keywords: [
+    "QEFAI",
+    "Quality Education For All",
+    "education NGO",
+    "mentorship",
+    "digital skills training",
+    "scholarship support",
+    "youth empowerment",
+    "free tutoring Nigeria",
+    "tech education for youth"
+  ],
+  authors: [{ name: "QEFAI Team" }],
+  creator: "QEFAI",
+  publisher: "QEFAI",
+  robots: "index, follow",
+  metadataBase: new URL("https://qefainitiative.vercel.app"), 
+  alternates: {
+    canonical: "https://qefainitiative.vercel.app",
+  },
+  icons: {
+    icon: "/logo_square.png",
     apple: "/logo_square.png",
   },
 }
@@ -47,6 +77,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
+        
       </head>
       <body className={`${geist.className} font-sans antialiased`}>
         <PageTransition>{children}</PageTransition>
